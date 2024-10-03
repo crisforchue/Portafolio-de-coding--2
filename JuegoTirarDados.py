@@ -12,7 +12,7 @@ def DiceRolling():
  return(dice1, dice2)
 
 while True:
- answer = input("Roll the dice? (y/n): ")
+ answer = input("Roll the dice? (y/n): ") #Olvidamos declarar la variable de answer
  if answer == 'y':
   print(DiceRolling())
  elif answer == 'n':

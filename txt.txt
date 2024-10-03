@@ -1,0 +1,5 @@
+comienzo = input("Bienvenido al juego! Deseas jugar? (si/no): ")
+    if comienzo == 'si'.lower():
+        while True:
+            if (eleccion_maquina == 'piedra' and eleccion_jugador == 'papel') or (eleccion_maquina == 'tijeras' and eleccion_jugador == 'piedra') or (eleccion_maquina == 'papel' and eleccion_jugador 'tijeras'):
+                print("felicidades, ganaste!")
