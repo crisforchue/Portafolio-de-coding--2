@@ -4,29 +4,31 @@
 # La maquina debe elegir una opcion tambien
 # Debe preguntarnos si queremos seguir jugando
 
-import random
+## Intento fallido, se vio la solucion del video para tratar de resolverlo de forma diferente. Segundo intento en un nuevo file ->
 
-def jugar():
+# import random
 
-    piedra = 'piedra'
-    papel = 'papel'
-    tijeras = 'tijeras'
+# def jugar():
 
-    opciones = [piedra, papel, tijeras]
+#     piedra = 'piedra'
+#     papel = 'papel'
+#     tijeras = 'tijeras'
 
-    while True:
+#     opciones = [piedra, papel, tijeras]
+
+#     while True:
      
-      comienzo = input("Deseas jugar? (si/no): ").lower()
+#       comienzo = input("Deseas jugar? (si/no): ").lower()
 
-      eleccion_maquina = random.choice(opciones)
-      eleccion_jugador = input("Elija una de las optiones -> (piedra/papel/tijeras): ")
+#       eleccion_maquina = random.choice(opciones)
+#       eleccion_jugador = input("Elija una de las optiones -> (piedra/papel/tijeras): ")
       
-      if comienzo == 'si':
-        (eleccion_jugador == piedra and eleccion_maquina == tijeras) or (eleccion_jugador == tijeras and eleccion_maquina == papel) or (eleccion_jugador == papel and eleccion_maquina == piedra)
-        print(f"Ganaste, elejister {eleccion_jugador} y la maquina eligio {eleccion_maquina}!")
-      elif eleccion_maquina == eleccion_jugador:
-         print("Es un empate!")
-      else:
-        print(f'Perdiste! La maquina eligio {eleccion_maquina}.')
+#       if comienzo == 'si':
+#         (eleccion_jugador == piedra and eleccion_maquina == tijeras) or (eleccion_jugador == tijeras and eleccion_maquina == papel) or (eleccion_jugador == papel and eleccion_maquina == piedra)
+#         print(f"Ganaste, elejister {eleccion_jugador} y la maquina eligio {eleccion_maquina}!")
+#       elif eleccion_maquina == eleccion_jugador:
+#          print("Es un empate!")
+#       else:
+#         print(f'Perdiste! La maquina eligio {eleccion_maquina}.')
 
-jugar()
+# jugar()
